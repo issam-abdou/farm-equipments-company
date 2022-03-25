@@ -1,0 +1,83 @@
+
+body{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ========= VARIABLES ========= */
+:root{
+    --grey-color:#ebebeb;
+    --yellow-color:#ffb606;
+    --dark-blue:#23282d;
+    --bg-sectionn:#f2f7fa;
+}
+
+/* ============= start top nav =========== */
+.top__nav{
+    background-color:var(--grey-color) ;
+}
+/* ============= end top nav =========== */
+/* ============= start nav =========== */
+.navbar{
+    background-color:var(--dark-blue) ;
+}
+.navbar-toggler svg{
+    color: white;
+    font-size: 25px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+a.nav-link{
+    color: white;
+    transition: .2s ease;
+}
+a.nav-link:not(.nav-btn):hover{
+    color: var(--yellow-color);
+}
+.nav-btn{
+    background-color: var(--yellow-color);
+}
+.nav-btn:hover{
+    background-color: #fdbb20;
+    color: white;
+}
+/* TO DO
+- change the position (to center) of the button for mobile ??
+- put the button on the top nav ??
+*/
+
+/* ============= start hero =========== */
+.hero{
+    background-image: url('../imgs/banner1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    
+}
+.hero-btn{
+    border:solid 2px var(--yellow-color);
+}
+/* 
+TO DO:
+- edit the width of the bottons for mobile.
+*/
+/* ============= end hero =========== */
+/* ============= start why-us =========== */
+.why-us{
+    /* background-color: var(--bg-sectionn); */
+}
+.why-us .card p{
+    max-width: 250px;
+    
+}
+.why-us svg{
+    font-size: 70px;
+    color: var(--yellow-color);
+}
+/* ============= end why-us =========== */
+
